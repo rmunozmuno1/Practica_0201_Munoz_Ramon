@@ -1,0 +1,10 @@
+#Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión.
+Anual = input('¿Cuanto interes anual quieres?')
+Años = input('¿Durante cuantos años?')
+invertir = input('¿Cuanto quieres invertir?')
+x = float (invertir)
+y = float(Anual)
+z = float(Años)
+t = (x * (y / 100) * z)
+round(t, 3)
+print('El capital obtenido en esta inversion es de', (t), '€')
