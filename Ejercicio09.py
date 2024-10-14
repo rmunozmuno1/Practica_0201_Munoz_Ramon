@@ -2,7 +2,7 @@
 Anual = input('¿Cuanto interes anual quieres?')
 Años = input('¿Durante cuantos años?')
 invertir = input('¿Cuanto quieres invertir?')
-x = float (invertir)
+x = float(invertir)
 y = float(Anual)
 z = float(Años)
 t = (x * (y / 100) * z)
