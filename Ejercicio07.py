@@ -2,7 +2,7 @@
 Peso = float (input('¿Cual es tu peso en Kg?'))
 Altura = float (input('¿Cual es tu altura en m')) ### El decimal se pone con punto
 Altura = Altura ** 2
-IMC= Peso / Altura
+IMC = Peso / Altura
 ### He usado un comando que se llama "Round" para redondear ya que no he encontrado como hacerlo en los apuntes 
 IMC = round(IMC,2) ### Ponemos round ("La variable" una coma y el numero de decimales que queremos)
 print (IMC)

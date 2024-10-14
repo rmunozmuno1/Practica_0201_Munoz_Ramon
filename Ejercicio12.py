@@ -6,5 +6,5 @@ b = (3.49)
 c = (60)
 Dinero_Total = ((a * b * c) / 100)
 round (Dinero_Total, 2)  ### Por alguna extraña razon no me lo redondea, he buscado soluciones pero no encuentro nada 
-print ("Una barra de pan normal cuesta {b}")
-print ("La compra total por haber comprado barras que estan pasadas es de {Dinero_Total}")
+print (f"Una barra de pan normal cuesta {b}")
+print (f"La compra total por haber comprado barras que estan pasadas es de {Dinero_Total}")

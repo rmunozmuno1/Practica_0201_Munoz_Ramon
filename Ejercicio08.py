@@ -4,4 +4,4 @@ m = int(input('Introduce otro numero entero'))
 #Calculamos
 cociente= n//m
 resto = n % m
-print ("{n} entre {m} da un cociente {cociente} y un resto {resto}")
+print (f"{n} entre {m} da un cociente {cociente} y un resto {resto}")
